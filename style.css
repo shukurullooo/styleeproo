@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 16px;
+
+}
+
+.nabar__center .btn {
+    width: 153px;
+    height: 50px;
+    border-radius: 50px;
+    background: #454545;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nabar__center .navbar__input {
+    width: 526px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(118, 116, 116);
+    padding: 0 20px;
+}
+
+.nabar__center .navbar__input input {
+    font-size: 15px;
+    padding: 10px 100px 10px 30px;
+    display: flex;
+    flex: 1;
+    outline: none;
+    border: none;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 50px 150px;
+}
+
+.card__title {
+    margin-left: 12%;
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    margin-top: 50px;
+}
+.next__wrapper{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 155px;
+    gap: 160px;
+}
+.frist__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section{
+    background: #F2F2F2;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nabar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.nabar__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1301px;
+    margin: 0 auto;
+}
+
+.nabar__center .Logo {
+    display: flex;
+    gap: 10px;
+}
+
